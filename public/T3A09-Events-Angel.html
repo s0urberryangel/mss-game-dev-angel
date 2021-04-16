@@ -1,0 +1,107 @@
+<html>
+
+<body>
+
+OnClick <button onclick="myFunction()">click here</button>
+
+<p id="demo"></p>
+
+<script>
+
+function myFunction() {
+
+  document.getElementById("demo").innerHTML = “heyo”;
+
+}
+
+</script>
+
+</body>
+
+</html>
+
+<br>
+
+OnKeyPress
+
+<html>
+
+<body>
+
+<p>please type any letter in the box to get the result</p>
+
+<input type="text" onkeypress="myFunction()">
+
+<script>
+
+function myFunction() {
+
+  alert("Congrats, you made this pop up!");
+
+}
+
+</script>
+
+</body>
+
+</html>
+
+<br><br>
+
+OnResize<br>
+
+<html>
+
+<body onresize="myFunction()">
+
+<p>resize your current browser window in order to activate the function and see its size</p>
+
+<p id="demo"></p>
+
+<script>
+
+function myFunction() {
+
+  var w = window.outerWidth;
+
+  var h = window.outerHeight;
+
+  var txt = "Window size: width=" + w + ", height=" + h;
+
+  document.getElementById("demo").innerHTML = txt;
+
+}
+
+</script>
+
+</body>
+
+</html>
+
+<br>
+
+OnSelect<br>
+
+<html>
+
+<body>
+
+<br>
+
+select some of the text: <input type="text" value="heyo" onselect="myFunction()">
+
+<script>
+
+function myFunction() {
+
+  alert("congrats you did it! you selected text!");
+
+}
+
+</script>
+
+</body>
+
+</html>
+
+<br>
