@@ -1,0 +1,111 @@
+Version 0.0.4
+
+<h3 align=center>T1A07-Decisions-Angel</h3>
+
+<b style="color:green; background:transparent"> Good Decisions/if Statement Reference </b><br>
+
+<a href="https://www.w3schools.com/js/js_if_else.asp">W3Schools</a><br><br><br>
+
+<b style="color:white; background:transparent"> if time < 20 statement example </b><br>
+
+<button onclick="myFunction()">generate greeting</button>
+
+<p id="xp"></p>
+
+<script>
+function myFunction() {
+  var time = new Date().getHours();
+  var greeting;
+  if (time < 20) {
+    greeting = "Have a good day!";
+  } else {
+    greeting = "Have a good evening!";
+  }
+  document.getElementById("xp").innerHTML = greeting;
+}
+</script>
+
+<b style="color:white; background:pink"> Example Working Code </b><br>
+
+<input id="myNum01" type=number value="4" ><br>
+
+<input type=button value="Simple If Statement for Decision Making" onclick="{
+     let myIn01 = parseFloat(document.getElementById('myNum01').value)
+     if (myIn01 >= 3){
+         document.getElementById('myDiv01').innerHTML = myIn01 + ' is greater than 3'
+     }
+}"><br>
+<span id ="myDiv01" >...</Span<br><br>
+
+<input id="myNum02" type=number value="3" ><br>
+<input type=button value="if else..." onclick="{
+   let myIn02 = parseFloat(document.getElementById('myNum02').value)
+   if (myIn02 >= 3){
+       document.getElementById('myDiv02').innerHTML = myIn02 + ' is greater than 3'
+     } else {
+        document.getElementById('myDiv01').innerHTML = myIn02 + ' is less than 3'}
+}"><br>
+
+<span id ="myDiv02" >...</Span<br><br>
+
+<input id="myNum03" type=number value="5" ><br>
+<input type=button value="Complex if Statement" onclick="{
+   let myIn03 = parseFloat(document.getElementById('myNum03').value)
+   if ((myIn03 != 3 || myIn03  > -3) && myIn03 <=100 ){
+     document.getElementById('myDiv03').innerHTML = myIn03 + ' hey, this is complex!'
+   } else {
+     document.getElementById('myDiv03').innerHTML = myIn03 + ' hey, this isnt complex'}
+}"><br>
+<span id ="myDiv03" >...</Span<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #B9B2DC;
+}
