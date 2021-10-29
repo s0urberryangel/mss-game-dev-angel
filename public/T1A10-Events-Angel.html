@@ -172,9 +172,33 @@ function drop(event) {
 </script>
 
 </body>
-</html>
+</html><br><br>
 
+<br><br><br>
+<b style="color:white; background:transparent"> OnCopy </b><br><br>
 
+<input type="text" oncopy="myFunction()" value="copy this to get result/event">
+
+<p id="x79"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("x79").innerHTML = "yay!!! you did it!"
+}
+</script><br>
+
+<br><br><br>
+<b style="color:black; background:transparent"> OnCut </b><br><br>
+
+<input type="text" oncut="myFunction()" value="cut this to get result/event">
+
+<p id="x99"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("x99").innerHTML = "yayy!!! you did it!";
+}
+</script>
 
 
 
