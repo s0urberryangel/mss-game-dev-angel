@@ -78,6 +78,42 @@ if (parseInt(document.getElementById('mySpan01').style.top) -5  > window.innerHe
     location = 'T4A17-Flappy-Bird-Angel.html'
   }
   
+   if(myHitOther('mySpan01', 'mySpan06')){
+    document.getElementById('mySpan06').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A17-Flappy-Bird-Angel.html'
+  }   
+   
+   if(myHitOther('mySpan01', 'mySpan07')){
+    document.getElementById('mySpan07').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A17-Flappy-Bird-Angel.html'
+  }   
+   
+   if(myHitOther('mySpan01', 'mySpan08')){
+    document.getElementById('mySpan08').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A17-Flappy-Bird-Angel.html'
+  }   
+   
+   if(myHitOther('mySpan01', 'mySpan09')){
+    document.getElementById('mySpan09').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A17-Flappy-Bird-Angel.html'
+  }   
+   
+   if(myHitOther('mySpan01', 'mySpan10')){
+    document.getElementById('mySpan10').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A17-Flappy-Bird-Angel.html'
+  }   
+   
+   if(myHitOther('mySpan01', 'mySpan11')){
+    document.getElementById('mySpan11').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A17-Flappy-Bird-Angel.html'
+  }   
+   
   if(myHitOther('mySpan01', 'mySpan200')){
     document.getElementById('mySpan03').style.left = '-400px'
     alert('You Win!')
@@ -100,8 +136,18 @@ function myXAuto(){
   document.getElementById('mySpan04').style.left = parseInt(document.getElementById('mySpan04').style.left) + document.myXmove 
    
   document.getElementById('mySpan05').style.left = parseInt(document.getElementById('mySpan05').style.left) + document.myXmove  
-
-  myCheckAll()
+   
+   document.getElementById('mySpan06').style.left = parseInt(document.getElementById('mySpan06').style.left) + document.myXmove     
+   
+   document.getElementById('mySpan07').style.left = parseInt(document.getElementById('mySpan07').style.left) + document.myXmove  
+   
+   document.getElementById('mySpan08').style.left = parseInt(document.getElementById('mySpan08').style.left) + document.myXmove     
+   
+   document.getElementById('mySpan09').style.left = parseInt(document.getElementById('mySpan09').style.left) + document.myXmove     
+   
+   document.getElementById('mySpan10').style.left = parseInt(document.getElementById('mySpan10').style.left) + document.myXmove     
+  
+   document.getElementById('mySpan11').style.left = parseInt(document.getElementById('mySpan11').style.left) + document.myXmove     
 }
 
 
@@ -129,15 +175,27 @@ document.myXtimer = setInterval( myXAuto , document.myXspeed);
 
 <span title="1"  id="mySpan01" style="position:absolute; left:100; top:150; width:45; height:30">
      <img src="birdsprite.png" width=80></span><br>
-<span title="2"  id="mySpan02" style="position:absolute; left:900; top:100; width:60; height:60"> 
-    <img src="pipeflipped.png" width=30></span><br>
+<span title="2"  id="mySpan02" style="position:absolute; left:900; top:100; width:45; height:30"> 
+    <img src="pipeflipped.png" width=40></span><br>
 <span title="3"  id="mySpan03" style="position:absolute; left:900; top:300; width:45; height:30"> 
-  <img src="pipenormal.png" width=30></span><br>
+  <img src="pipenormal.png" width=40></span><br>
 <span title="4"  id="mySpan04" style="position:absolute; left:1100; top:150; width:45; height:30"> 
-  <img src="pipeflipped.png" width=30></span><br>
+  <img src="pipeflipped.png" width=40></span><br>
 <span title="5"  id="mySpan05" style="position:absolute; left:1100; top:300; width:45; height:30"> 
-  <img src="pipenormal.png" width=30></span><br>
-
+  <img src="pipenormal.png" width=40></span><br>
+   <span title="6"  id="mySpan06" style="position:absolute; left:1300; top:150; width:45; height:30"> 
+  <img src="pipeflipped.png" width=40></span><br>
+  <span title="7"  id="mySpan07" style="position:absolute; left:1300; top:300; width:45; height:30"> 
+  <img src="pipenormal.png" width=40></span><br>
+  <span title="8"  id="mySpan08" style="position:absolute; left:1500; top:150; width:45; height:30"> 
+  <img src="pipeflipped.png" width=40></span><br>
+  <span title="9"  id="mySpan09" style="position:absolute; left:1500; top:300; width:45; height:30"> 
+  <img src="pipenormal.png" width=40></span><br>
+  <span title="10"  id="mySpan10" style="position:absolute; left:1700; top:150; width:45; height:30"> 
+  <img src="pipeflipped.png" width=40></span><br>
+  <span title="11"  id="mySpan11" style="position:absolute; left:1700; top:300; width:45; height:30"> 
+  <img src="pipenormal.png" width=40></span><br> 
+   
  <span id="mySpanBackground" style="z-index:-1; position:absolute; left:0; top:0; width:45; height:30"> 
  <img src="4622688.png" width=3000> </span><br>
 
